@@ -1,0 +1,87 @@
+/* Cores */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+header img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+/* Produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produtos li {
+    width: calc(20% - 20px);
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.produtos li h3,
+.produtos li p {
+    margin: 5px 0;
+}
+
+/* Carrinho e Top Doadores */
+.carrinho, .top-doadores {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
