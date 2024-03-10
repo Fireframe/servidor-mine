@@ -17,6 +17,15 @@ header, ul{
     flex-direction: row;
 }
 
+.PulsePixelmon {
+    flex-direction: row;
+}
+
+li { 
+    display: inline-block;
+    margin: 20px;  
+}
+
 a {
     text-decoration: none;
     color: #007bff;
@@ -39,7 +48,14 @@ header {
 }
 
 .logo {
+    align-items: center;
+    display: flex;
     width: 150px;
+}
+
+.font {
+    font-family: fantasy;
+    
 }
 
 header img {

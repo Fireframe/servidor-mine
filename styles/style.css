@@ -15,7 +15,7 @@ header {
 }
 #title {
     flex-direction: column;
-    line-height: 10px;
+    line-height: 6px;
 }
 li {
     display: inline-block;
@@ -24,11 +24,14 @@ li {
 
 a {
     color: white;
+    transition: 0.5s;
+    border-radius: 20px;
 }
 
 a:hover {
     color: rgb(132, 14,201);
     transition-duration: 0.3s all;
+    background-color: rgb(212, 162, 241);
 }
 
 #inscreva-se-btn{
@@ -74,12 +77,17 @@ form {
     width: 50%;
 }
 
-form [type="submit"] {
+.Enviar {
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: xx-large;
     height: 50px;
     width: 50%;
     background-color: rgb(132, 14,201);
     color: white;
     font-weight: bold;
+    
 }
 
 input {
