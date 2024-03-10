@@ -1,4 +1,3 @@
-/* Cores */
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(34, 34, 34);
@@ -17,15 +16,37 @@ header, ul{
     flex-direction: row;
 }
 
-.PulsePixelmon {
-    flex-direction: row;
+.cabeçalho {
+    background-color: rgb(48, 48, 48);
+    border-bottom: 5px solid rgb(132, 14,201);
+    
 }
 
 li { 
     display: inline-block;
     margin: 20px;  
+    
 }
 
+.downloadButton, .contaButton{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.downloadButton:hover{
+    background: rgb(132, 14,201);
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.contaButton:hover{
+    background-color: rgb(132, 14,201);
+    color: black;
+    border-radius: 20px;
+}
 a {
     text-decoration: none;
     color: #007bff;
@@ -45,17 +66,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
     align-items: center;
     display: flex;
-    width: 150px;
+    width: 560px;
 }
 
 .font {
     font-family: fantasy;
-    
+
 }
 
 header img {
@@ -69,35 +91,41 @@ header img {
     padding: 0;
 }
 
+.home {
+    
+    font-size:35px;
+    color: rgb(132, 14,201);
+    padding: 15px;
+    font-family: fantasy;
+    transition: 0.5s;   
+}
+
+.Loja {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;  
+}
+
+.Conta {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+}
+
 .menu li {
     margin-right: 20px;
 }
-
-/* Produtos */
-.produtos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.BemVindo {
+    font-size: 45px;
 }
 
-.produtos li {
-    width: calc(20% - 20px);
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 15px;
-    text-align: center;
-}
-
-.produtos li h3,
-.produtos li p {
-    margin: 5px 0;
-}
-
-/* Carrinho e Top Doadores */
-.carrinho, .top-doadores {
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
+.imagesPokes {
+    padding: 31px;
+    width: 328px;
+    height: 216px;
+    border-radius: 50px;
 }

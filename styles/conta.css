@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+    color: aliceblue;
+   
+}
+header {
+    justify-content: center;
+    width: 1315px;
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cabeçalho {
+    background-color: rgb(48, 48, 48);
+    border-bottom: 5px solid rgb(132, 14,201);
+}
+
+li { 
+    display: inline-block;
+    margin: 20px;  
+    
+}
+
+.downloadButton, .contaButton{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.downloadButton:hover{
+    background: rgb(132, 14,201);
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.contaButton:hover{
+    background-color: rgb(132, 14,201);
+    color: black;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    width: 560px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy;
+    transition: 0.5s;   
+}
+
+.Loja {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;  
+}
+
+.Conta {
+    font-size:35px;
+    color: rgb(132, 14,201);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+}
+
+
+
+.caixa1 {
+    height:200px;
+    width: 460px;
+    background-color: rgb(56, 54, 54); 
+    align-items:center; 
+    justify-content: center; 
+    border: rgb(132, 14,201) solid;
+    border-radius:32px; 
+    text-align: left;
+    margin: 5px;
+    padding-left:10px;
+    
+    
+}
+.caixa2 {
+    height:200px;
+    width: 460px; 
+    background-color: rgb(56, 54, 54); 
+    align-items:center; 
+    justify-content: center;
+    border-radius:32px;
+    border: rgb(132, 14,201) solid;
+    margin: 5px;
+    padding-left:10px;
+    
+}
+
+.caixa3 {
+    height:200px;
+    width: 460px; 
+    background-color: rgb(56, 54, 54); 
+    align-items:center; 
+    justify-content: center; 
+    border-radius:32px;
+    margin: 5px;
+    padding-left:10px;
+    
+    border: rgb(132, 14,201) solid;
+}
+
+.caixa4 {
+    
+    height:200px;
+    width: 460px; 
+    background-color: rgb(56, 54, 54); 
+    display: flex;
+    border-radius:32px;
+    border: rgb(132, 14,201) solid;
+    margin: 5px;
+    padding-left: 10px;
+    ;
+  
+    
+    
+}
+.caixas {
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    justify-content: center;
+}
+.linha1 {
+    justify-content: space-between;
+    display: flex;
+    height:220px;
+    width: 700px;
+    ;
+
+}
+.linha2{
+
+    justify-content: space-between;
+    display: flex;
+    width: 700px;
+    height:220px;
+
+}   
+.conteiner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:1080px;
+    height:700px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+
+}
+
+.nome-usuario {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add {
+    
+    width:100px;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+
+  }
