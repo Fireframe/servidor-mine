@@ -24,7 +24,7 @@ header, ul{
 
 li { 
     display: inline-block;
-    margin: 20px;  
+    
     
 }
 
@@ -94,7 +94,7 @@ header img {
 .home {
     
     font-size:35px;
-    color: rgb(132, 14,201);
+    color: rgb(132, 14, 201);
     padding: 15px;
     font-family: fantasy;
     transition: 0.5s;   
@@ -118,6 +118,15 @@ header img {
 
 .menu li {
     margin-right: 20px;
+}
+
+.pokedexButton{
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
 }
 .BemVindo {
     font-size: 45px;

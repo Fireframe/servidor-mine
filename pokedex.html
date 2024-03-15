@@ -5,17 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Quick's Pokedex</title>
-        <link rel="stylesheet" href="pokemon.css" />
+        <link rel="stylesheet" href="styles/pokedex.css" />
         <link
             href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
             rel="stylesheet"
         />
     </head>
     <body>
+        <div class="header" class="cabecalho">
+            <div  class="logo">
+                <img style="border: white ; width: 300px;" src=".//components/images/thumbnails_imagem_2024-03-09_213715725.png" alt="Vicio Servidores">
+            </div>
+            <div class="menu">
+                <ul>
+                    <div>
+                    <li ><a class="home" href="./inicio.html">Home</a></li>
+                    <li><a class="Loja" href="./loja.html">Loja</a></li>
+                    <li><a class="Conta" href="./conta.html">Conta</a></li>
+                    <li><a class="pokedexButton" href="#">Pokedex</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
         <div class="container">
-            <h1>Quick's Pokedex</h1>
             <ul id="pokedex"></ul>
         </div>
-        <script src="scripts/app.js"></script>
+        <script src="/scripts/pokedex.js"></script>
     </body>
 </html>

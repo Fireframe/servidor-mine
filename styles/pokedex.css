@@ -1,8 +1,113 @@
 body {
-    background-color: orangered;
+    background-color: rgb(34, 34, 34);
     color: white;
     margin: 0;
-    font-family: rubik;
+    font-family: fantasy;
+}
+
+.header{
+    background-color: rgb(48, 48, 48);
+    border-bottom: 5px solid rgb(132, 14,201);
+}
+.header, main {
+    padding: 20px;
+}
+
+.header, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li { 
+    display: inline-block;
+    margin: 20px;  
+    
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo { 
+    align-items: center;
+    display: flex;
+    width: 560px;
+}
+
+.font {
+    font-family: fantasy;
+
+}
+
+header img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    justify-content: end;
+    
+}
+
+.home {
+    
+    font-size:35px;
+    color: white;
+    padding: 15px;
+    font-family: fantasy;
+    transition: 0.5s;   
+}
+
+.Loja {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;  
+}
+
+.Conta {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+}
+
+.pokedexButton{
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+    color: rgb(132, 14, 201);
+}
+.menu li {
+    margin-right: 20px;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 .container {
@@ -29,10 +134,14 @@ h1 {
     background-color: #f4f4f4;
     color: #222;
   text-align: center;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
 .card:hover {
     animation: bounce 0.5s linear;
+    border: 7px solid purple;
+    
 }
 
 .card-title {

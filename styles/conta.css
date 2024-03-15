@@ -101,6 +101,14 @@ a:hover {
     transition: 0.5s;
 }
 
+.pokedexButton{
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
 
 
 .caixa1 {
@@ -148,7 +156,7 @@ a:hover {
     height:200px;
     width: 460px; 
     background-color: rgb(56, 54, 54); 
-    display: flex;
+    
     border-radius:32px;
     border: rgb(132, 14,201) solid;
     margin: 5px;
