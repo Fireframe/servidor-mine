@@ -80,13 +80,16 @@ form {
 .Enviar {
     margin-top: 10px;
     text-decoration: none;
-    text-align: center;
+    text-align:end;
     font-size: xx-large;
     height: 50px;
     width: 50%;
     background-color: rgb(132, 14,201);
     color: white;
     font-weight: bold;
+    align-items:center;
+    text-justify:center;
+    
     
 }
 

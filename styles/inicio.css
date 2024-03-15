@@ -126,10 +126,11 @@ header img {
     padding: 15px;
     font-family: fantasy; 
     transition: 0.5s;
-    color: rgb(255, 255, 255);
 }
 .BemVindo {
     font-size: 45px;
+    align-items:center;
+    text-align: center;
 }
 
 .imagesPokes {
