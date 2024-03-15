@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.cabeçalho {
+    background-color: rgb(48, 48, 48);
+    border-bottom: 5px solid rgb(132, 14,201);
+    
+}
+
+li { 
+    display: inline-block;
+    
+    
+}
+
+.downloadButton, .contaButton{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.downloadButton:hover{
+    background: rgb(132, 14,201);
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.contaButton:hover{
+    background-color: rgb(132, 14,201);
+    color: black;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    width: 560px;
+}
+
+.font {
+    font-family: fantasy;
+
+}
+
+header img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    
+    font-size:35px;
+    color: rgb(132, 14, 201);
+    padding: 15px;
+    font-family: fantasy;
+    transition: 0.5s;   
+}
+
+.Loja {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;  
+}
+
+.Conta {
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.pokedexButton{
+    font-size:35px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: fantasy; 
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+.BemVindo {
+    font-size: 45px;
+}
+
+.imagesPokes {
+    padding: 31px;
+    width: 328px;
+    height: 216px;
+    border-radius: 50px;
+}
